@@ -25,7 +25,7 @@ a {
 .linha{
     height: 2px;
     width: 43%;
-    background-color: #7a95ff;
+    background-color: #4260db;
     border: none;
     margin: 25px;
     border-radius: 2px;
@@ -72,7 +72,7 @@ a {
 }
 
 .campos input:focus {
-    border-color: #7a95ff;
+    border-color: #4260db;
 }
 
 .senha-container {
@@ -85,7 +85,7 @@ a {
 .esqueci-senha {
     font-size: 12px;
     font-weight: 500;
-    color: #627bdf;
+    color: #4260db;
     text-decoration: none;
     margin-left: 10px;
     transition: 0.2s;
@@ -101,7 +101,7 @@ a {
 .botao {
     font-size: 18px;
     font-weight: 500;
-    background-color: #627bdf;
+    background-color: #4260db;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -109,4 +109,9 @@ a {
     width: 80%;
     height: 42px;
     display: block;
+    transition: background-color 0.3s ease ;
+}
+
+.botao:active{
+    background-color: #7c91e6;
 }
